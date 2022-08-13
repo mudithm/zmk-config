@@ -99,8 +99,9 @@
         compatible = "zmk,combos";
         combo_backspace {
             timeout-ms = <200>;
-            key-positions = <34 54>;
+            key-positions = <SEMI_POS SPACE_POS>;
             bindings = <&kp BSPC>;
+            slow-release;
         };
     };
 };
